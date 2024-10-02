@@ -44,3 +44,16 @@ const multiply = (x, y) => {
 // console.log(multiply(2,4));
 // console.log(multiply(10, -5));
 // console.log(multiply(3, 7.5));
+
+const add =(x, y) => {
+    if(x == y) {
+        return x * 3;
+    } else {
+        return x + y;
+    }
+}
+//console.log(add(2, 4));    //returns 6
+// add(10, -5)   //returns 5
+// add(3, 7.5)   //returns 10.5
+// console.log(add(5, 5));     //returns 30 because the sum of 5 + 5 = 10 and 30 is triple that
+// add(6, 6)     //returns 36 because the sum of 6 + 6 = 12 and 36 is triple that)
