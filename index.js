@@ -26,4 +26,13 @@ const multiplesOfThreeOrFive =() => {
   }
 }
 
-multiplesOfThreeOrFive();
+//multiplesOfThreeOrFive();
+
+const untilNum =(x) => {
+    for(let i = 1; i <= x; i++){
+        console.log(i);
+    }
+}
+untilNum(5);
+untilNum(9);
+untilNum(42);
