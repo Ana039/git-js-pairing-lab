@@ -57,3 +57,14 @@ const add =(x, y) => {
 // add(3, 7.5)   //returns 10.5
 // console.log(add(5, 5));     //returns 30 because the sum of 5 + 5 = 10 and 30 is triple that
 // add(6, 6)     //returns 36 because the sum of 6 + 6 = 12 and 36 is triple that)
+
+const isNegative = (x) => {
+  if (x < 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+// console.log(isNegative(3));
+// console.log(isNegative(-2));
