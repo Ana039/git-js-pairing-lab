@@ -33,6 +33,14 @@ const untilNum =(x) => {
         console.log(i);
     }
 }
-untilNum(5);
-untilNum(9);
-untilNum(42);
+// untilNum(5);
+// untilNum(9);
+// untilNum(42);
+
+const multiply = (x, y) => {
+  return x * y;
+}
+
+// console.log(multiply(2,4));
+// console.log(multiply(10, -5));
+// console.log(multiply(3, 7.5));
