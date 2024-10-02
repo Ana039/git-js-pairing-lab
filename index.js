@@ -9,11 +9,21 @@ const fiveToOneHundred = () => {
 
 
 const multiplesOfThree =() => {
-for (let i = 0; i <= 100; i++ ) {
-if(i % 3 == 0) {
-    console.log(i);
-}
+  for (let i = 0; i <= 100; i++ ) {
+    if(i % 3 == 0) {
+      console.log(i);
+    }
+  }
 }
 
+const multiplesOfThreeOrFive =() => {
+  for (let i = 0; i <= 100; i++ ) {
+    if(i % 3 == 0) {
+      console.log(i);
+    } else if (i % 5 == 0) {
+      console.log(i);
+    }
   }
-multiplesOfThree();
+}
+
+multiplesOfThreeOrFive();
