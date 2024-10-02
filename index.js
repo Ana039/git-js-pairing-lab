@@ -87,3 +87,10 @@ const betweenTwentyAndFourty = (x) => {
 // console.log(betweenTwentyAndFourty(21));
 // console.log(betweenTwentyAndFourty(39));
 // console.log(betweenTwentyAndFourty(40));
+
+const largest = (a, b, c) => {
+    return Math.max( a, b, c );
+    
+}
+// console.log(largest(8, 6, 4));
+// console.log(largest(41, 108, 86));
